@@ -25,7 +25,7 @@ set $term foot
 set $menu wofi --show
 
 # ---Wallpaper---
-output * bg ~/Downloads/catmoch.png fill
+output * bg catmoch.png fill
 
 # ---Colors---
 client.focused 			$red $red $crust $red 
