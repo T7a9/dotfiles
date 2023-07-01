@@ -1,2 +1,2 @@
 # dotfiles
-alpine sway dotfiles
+dotfiles
