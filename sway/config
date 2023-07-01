@@ -124,10 +124,9 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Idle management
-# It doesn't work on my machine, if it works for you - kewl
 exec swayidle -w \
 	timeout 300 'swaylock -f' \
-	timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+	timeout 420 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
 	before-sleep 'swaylock -f'
 
 # Waybar
