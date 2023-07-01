@@ -1,0 +1,60 @@
+
+{
+    "layer": "top", // Waybar at top layer (idk what this does)
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    "modules-left": ["sway/workspaces", "sway/mode", "network"],
+  "modules-center": [
+    "clock"
+  ],
+    "modules-right": ["cpu", "temperature", "battery", "battery#bat2", "tray"],
+  "sway/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+          "1": "一", 
+          "2": "二", 
+          "3": "三", 
+          "4": "四", 
+          "5": "五", 
+          "6": "六", 
+          "7": "七", 
+          "8": "八", 
+          "9": "九", 
+          "10": "十"
+      } 
+  },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "clock": {
+    "format": "{:%a %B %d %H:%M %p}"
+  },
+  
+    "tray": {
+        "spacing": 10
+    },
+      "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "{temperatureC}°C "
+    },
+      "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-disconnected": "Disconnected ⚠",
+	"format-alt": "{ifname}: {ipaddr}/{cidr}"
+    }
+}
