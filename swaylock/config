@@ -2,14 +2,11 @@ indicator
 # daemonize
 indicator-caps-lock
 scaling=fill
-<<<<<<< HEAD
 #color=00000000
 screenshots
 effect-blur=7x5
 effect-vignette=0.5:0.5:0.5:0.5:0
-=======
 color=00000000
->>>>>>> 06f1beded2b9da072f8606597e1de7858c98eb88
 font=Iosevka
 font-size=20
 
