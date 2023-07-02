@@ -27,7 +27,7 @@
         "format": "<span style=\"italic\">{}</span>"
     },
     "clock": {
-    "format": "{:%a %B %d %H:%M %p}"
+    "format": "{:%a %B %d %H:%M}"
   },
   
     "tray": {
