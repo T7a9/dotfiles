@@ -7,7 +7,7 @@
   "modules-center": [
     "clock"
   ],
-    "modules-right": ["cpu", "temperature", "battery", "battery#bat2", "tray"],
+    "modules-right": ["cpu", "temperature", "battery", "tray"],
   "sway/workspaces": {
       "format": "{icon}",
       "format-icons": {
@@ -48,9 +48,6 @@
         },
         "format": "{capacity}% {icon}",
         "format-icons": ["", "", "", "", ""]
-    },
-    "battery#bat2": {
-        "bat": "BAT2"
     },
     "network": {
         "format-wifi": "{essid} ({signalStrength}%) ",
