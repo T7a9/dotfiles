@@ -2,19 +2,20 @@ indicator
 # daemonize
 indicator-caps-lock
 scaling=fill
+
+# "Toggle" blur - uncomment color and comment out the rest in this section
 #color=00000000
 screenshots
 effect-blur=7x5
 effect-vignette=0.5:0.5:0.5:0.5:0
+
+
 color=00000000
 font=Iosevka
 font-size=20
 
 
-# If you like blur, comment out color and uncomment this
-#screenshots
-#effect-blur=7x5
-#effect-vignette=0.5:0.5:0.5:0.5:0
+
 
 # Ring
 indicator-radius=100
