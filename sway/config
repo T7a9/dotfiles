@@ -53,16 +53,16 @@ floating_modifier $mod normal
 bindsym $mod+Shift+r reload
 
 # turn off laptop monitor (because)
-bindsym $mod+k+v exec ~/turnoff.sh
+bindsym $mod+k+v exec swaymsg output eDP-1 disable
 
-# screenshot
-bindsym Mod1+s exec grimshot save area
+# screenshot copy
+bindsym Mod1+s exec grimshot copy area
 
 # swaylock 
 bindsym Mod1+l exec swaylock
 
-# Exit sway (logs you out of your Wayland session)
-bindsym $mod+Shift+e exec swaynag -t warning -m 'end wl session' -B 'yea' 'swaymsg exit'
+# Exit sway (logs you out of your Wayland session instantly)
+bindsym $mod+Shift+e exec swaymsg exit 
 
 # Move your focus around
 bindsym $mod+Left focus left
