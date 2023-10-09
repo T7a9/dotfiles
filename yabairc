@@ -1,0 +1,23 @@
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+sudo yabai --load-sa
+
+# default layout
+yabai -m config layout bsp
+yabai -m config left_padding   20
+yabai -m config right_padding  20
+yabai -m config external_bar all:20:40
+# stupid macos feature
+yabai -m config window_shadow off
+
+# autotiling
+yabai -m config auto_balance on
+
+# focus follows mouse
+yabai -m config focus_follows_mouse autofocus
+
+# said apps ignore tiling
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^ProtonVPN" manage=off
+yabai -m rule --add app="^Find My" manage=off
+yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
