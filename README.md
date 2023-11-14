@@ -1,6 +1,3 @@
-# dotfiles
-alpine sway dotfiles
-
 # dependencies
 nerd fonts
 
