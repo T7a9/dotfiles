@@ -1,5 +1,7 @@
 # fork of [beta](https://github.com/T7a9/dotfiles/tree/beta) w/ biscuit dark
 ![yabbis](https://github.com/T7a9/dotfiles/assets/91150477/0becf139-9bb9-4d4f-a798-569227753784)
+# firefox
+my [userChrome.css](https://github.com/T7a9/userChrome.css) and [theme](https://addons.mozilla.org/en-US/firefox/addon/biscuit-dark-moss-green/)
 # differences
 - colorscheme
 - switch to fastfetch + asahi logo
