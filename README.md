@@ -1,3 +1,5 @@
+# installation
+`git clone -b <branch> https://github.com/T7a9/dotfiles`
 # [alpha - sway w/ catppuccin](https://github.com/T7a9/dotfiles/tree/alpha)
 ![image](https://github.com/T7a9/dotfiles/assets/91150477/459b6b19-2620-48b5-8958-544b1fe28ac5)
 # [beta - yabai w/ tokyonight](https://github.com/T7a9/dotfiles/tree/beta)
